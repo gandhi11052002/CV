@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <div>
+      <h2>Enter your personal detials to contact me:</h2>
+      <form
+        action="mailto:202001200@daiict.ac.in"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB" />
+        <br />
+        <br />
+        <label for="number">Mobile Number</label>
+        <input type="number" name="mobileNumber" id="number" />
+        <br />
+        <br />
+        <label>Gender:</label>
+        &nbsp;&nbsp;Male
+        <input type="radio" name="gender" value="male" checked />
+        &nbsp;&nbsp;Female
+        <input type="radio" name="gender" value="female" />
+        <br />
+        <br />
+        <label>Hobbies:</label>
+        &nbsp;&nbsp;Reading
+        <input type="checkbox" name="hobbies" value="reading" />
+        &nbsp;&nbsp;Coding
+        <input type="checkbox" name="hobbies" value="coding" checked />
+        &nbsp;&nbsp;Sleeping
+        <input type="checkbox" name="hobbies" value="sleeping" />
+        <br />
+        <br />
+        Address:
+        <br />
+        <textarea name="address" id="address" cols="30" rows="10">
+Write full address here...</textarea
+        >
+        <br />
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </div>
+    <div>
+      <center>
+        <a href="index.html"><h3>Go Back to main page</h3></a>
+      </center>
+    </div>
+  </body>
+</html>
